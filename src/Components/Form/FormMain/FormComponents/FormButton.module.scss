@@ -1,0 +1,63 @@
+.form {
+  width: 486px;
+  height: 40px;
+  display: grid;
+  align-items: center;
+  position: relative;
+  left: 225px;
+  grid-template-columns: 1fr 1fr;
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    width: 370px;
+    place-items: center;
+    grid-template-columns: 1fr;
+    left: 0;
+    margin: 10px 0 10px 0;
+  }
+
+  @media (min-width: 480px) and (max-width: 768px) {
+    width: 450px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 760px;
+  }
+}
+
+.button {
+  width: 119px;
+  height: 40px;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: white;
+  background-color: #71c838;
+  cursor: pointer;
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    width: 90px;
+  }
+
+  @media (min-width: 480px) and (max-width: 1024px) {
+    width: 450px;
+  }
+}
+
+.button_title {
+  width: 355px;
+  height: 20px;
+  color: #999999;
+  font-size: 12px;
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    width: 370px;
+  }
+
+  @media (min-width: 480px) and (max-width: 768px) {
+    width: 450px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 760px;
+  }
+}

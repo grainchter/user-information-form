@@ -1,0 +1,137 @@
+.header {
+  width: 1169px;
+  height: 150px;
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    width: 350px;
+  }
+
+  @media (min-width: 480px) and (max-width: 1024px) {
+    width: 480px;
+  }
+}
+
+.header_title_container {
+  display: grid;
+  align-items: center;
+  width: 1169px;
+  height: 100px;
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    width: 350px;
+  }
+
+  @media (min-width: 480px) and (max-width: 1024px) {
+    width: 480px;
+  }
+}
+
+.header_title {
+  position: absolute;
+  left: 100px;
+  width: 507px;
+  height: 34px;
+  font-family: "Arial";
+  font-size: 30px;
+  line-height: 34px;
+  color: #666666;
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    width: 350px;
+    left: 10px;
+    font-size: 16px;
+  }
+
+  @media (min-width: 480px) and (max-width: 1024px) {
+    width: 350px;
+    left: 30px;
+    font-size: 20px;
+  }
+}
+
+.link {
+  position: absolute;
+  width: auto;
+  height: 15px;
+  left: 730px;
+  font-size: 12px;
+  color: #0c77bb;
+  border-bottom-style: dotted;
+  border-bottom-width: 2px;
+  cursor: pointer;
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    font-size: 10px;
+    left: 280px;
+  }
+
+  @media (min-width: 480px) and (max-width: 1024px) {
+    left: 380px;
+    font-size: 10px;
+  }
+}
+
+.status_tooltip {
+  position: absolute;
+  width: 503px;
+  height: 44px;
+  left: 324px;
+  top: 70px;
+  background-color: #eaeaea;
+
+  & > p {
+    color: #000;
+    margin-left: 12px;
+    font-size: 14px;
+  }
+
+  & > input[type="text"] {
+    width: 450px;
+    height: 24px;
+    margin: 7px;
+  }
+
+  &::after,
+  &::before {
+    content: "";
+    position: absolute;
+    background: #eaeaea;
+    left: 20px;
+    top: -5px;
+    width: 10px;
+    height: 10px;
+    box-shadow: 0 0 0px #000;
+    z-index: -1;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  &::before {
+    z-index: 1;
+    box-shadow: none;
+  }
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    width: 300px;
+    left: 10px;
+
+    & > input[type="text"] {
+      width: 250px;
+    }
+
+    &::after,
+    &::before {
+      content: "";
+
+      box-shadow: 0 0 0px #000;
+    }
+  }
+
+  @media (min-width: 480px) and (max-width: 768px) {
+    width: 450px;
+    left: 50px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 760px;
+  }
+}

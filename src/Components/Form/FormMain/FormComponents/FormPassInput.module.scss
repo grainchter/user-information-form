@@ -1,0 +1,95 @@
+.form {
+  width: 916px;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: 224px repeat(2, 1fr);
+  align-items: center;
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    width: 370px;
+    grid-template-columns: 150px 1fr;
+  }
+
+  @media (min-width: 480px) and (max-width: 768px) {
+    width: 450px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 760px;
+  }
+}
+
+.form_title {
+  width: 158px;
+  height: 19px;
+
+  font-family: "Arial";
+  font-size: 21px;
+  line-height: 19px;
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    width: 100px;
+    font-size: 18px;
+  }
+
+  @media (min-width: 480px) and (max-width: 768px) {
+    width: 450px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 760px;
+  }
+}
+
+.form_description {
+  width: 339px;
+  height: auto;
+
+  color: #999999;
+  font-family: "Arial";
+  font-size: 12px;
+  line-height: 19px;
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    width: 370px;
+    font-size: 11px;
+  }
+
+  @media (min-width: 480px) and (max-width: 768px) {
+    margin-left: 10px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 760px;
+  }
+}
+
+.form_input {
+  width: 336px;
+  height: 31px;
+
+  border: 1px solid #999999;
+  box-sizing: border-box;
+
+  @media (min-width: 370px) and (max-width: 480px) {
+    width: 200px;
+  }
+
+  @media (min-width: 480px) and (max-width: 768px) {
+    width: 450px;
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    width: 760px;
+  }
+}
+
+.input_label {
+  display: inline-block;
+  & > label {
+    display: block;
+    font-size: 12px;
+    color: #ff0000;
+  }
+}
