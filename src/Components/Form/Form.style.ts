@@ -8,6 +8,7 @@ export const Container = styled.div`
 
   @media (min-width: 370px) and (max-width: 480px) {
     width: 370px;
+    margin-top: 10%;
   }
 
   @media (min-width: 480px) and (max-width: 1024px) {

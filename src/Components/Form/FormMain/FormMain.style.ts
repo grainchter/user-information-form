@@ -8,7 +8,7 @@ export const Container = styled.div`
   left: 100px;
 
   @media (min-width: 370px) and (max-width: 480px) {
-    left: 0;
+    left: 20px;
   }
 
   @media (min-width: 480px) and (max-width: 768px) {
@@ -23,7 +23,7 @@ export const Line = styled.hr`
   border: 1px solid #e5e4e4;
 
   @media (min-width: 370px) and (max-width: 480px) {
-    width: 250px;
+    width: 300px;
   }
 
   @media (min-width: 480px) and (max-width: 768px) {

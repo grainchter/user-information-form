@@ -8,11 +8,11 @@
   grid-template-columns: 1fr 1fr;
 
   @media (min-width: 370px) and (max-width: 480px) {
-    width: 370px;
+    width: 350px;
     place-items: center;
     grid-template-columns: 1fr;
     left: 0;
-    margin: 10px 0 10px 0;
+    margin: 20px 0 50px 0;
   }
 
   @media (min-width: 480px) and (max-width: 768px) {
@@ -50,7 +50,7 @@
   font-size: 12px;
 
   @media (min-width: 370px) and (max-width: 480px) {
-    width: 370px;
+    width: 350px;
   }
 
   @media (min-width: 480px) and (max-width: 768px) {
