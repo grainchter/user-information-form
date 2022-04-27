@@ -5,6 +5,7 @@
   align-items: center;
   position: relative;
   left: 225px;
+  margin: 20px 0 50px 0;
   grid-template-columns: 1fr 1fr;
 
   @media (min-width: 370px) and (max-width: 480px) {
@@ -13,14 +14,6 @@
     grid-template-columns: 1fr;
     left: 0;
     margin: 20px 0 50px 0;
-  }
-
-  @media (min-width: 480px) and (max-width: 768px) {
-    width: 450px;
-  }
-
-  @media (min-width: 768px) and (max-width: 1024px) {
-    width: 760px;
   }
 }
 
