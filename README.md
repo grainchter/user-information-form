@@ -1,8 +1,8 @@
 ## Инструкция по установке
 
-### `git clone https://github.com/grainchter/rick-shop`
+### `git clone https://github.com/grainchter/user-information-form`
 
-### `cd rick-shop`
+### `cd user-information-form`
 
 Установка зависимостей
 
