@@ -2,7 +2,7 @@
   "name": "user-information-form",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://grainchter.github.io/user-information-form",
+  "homepage": "http://grainchter.github.io/user-information-form",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.16.4",
